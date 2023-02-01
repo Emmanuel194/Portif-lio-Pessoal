@@ -15,8 +15,16 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+#page1{
+  padding: 40px;
+}
 #title{
   flex-direction: column;
   line-height: 12px;
@@ -35,7 +43,8 @@ section{
  display: flex;
  flex-direction: row;
  margin-top: 50px;
-
+ height: 100vh;
+ align-items: center;
 }
 
 h2{
@@ -48,12 +57,13 @@ span{
   color: #6C63FF;
 }
 
-img{
+.image1{
   width: 580px;
   transition: 500ms linear;
 }
 
-img:hover{
+
+.image1:hover{
   transform: scale(1.1);
 }
 
@@ -78,15 +88,15 @@ a:hover{
   margin: 0;
 }
 
-.logo-esquerda{
-  max-width: 100%;
-  display: block;
-}
 
 /*Btn page 01*/
 
 .link-centralize{
   text-align: center;
+}
+.img-likedin{
+  height: 20px;
+  width: 20px;
 }
 .btn-principal {
  padding: 20px;
@@ -164,38 +174,92 @@ p{
 
 
 .centra-projetos{
-  align-items: center;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
+  width: 100%;
 }
 
+.projeto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 
+  align-items: center;
+  justify-content: center;
+}
 
 .pro{
   background-color: #C4C4C4;
   height: 195px;
   width: 310px;
   border-radius: 20px;
-  align-items: center;
+
   cursor: pointer;
-  overflow: hidden;
-  transition: ease-in-out 0.3s;
-  display: inline-block;
-  margin-top: 30px;
-  margin-right: 15px;
+  /* overflow: hidden;
+  transition: ease-in-out 0.3s; */
+  /* display: inline-block; */
+  /* margin-top: 30px; */
+  /* margin-right: 15px; */
+  display: flex;
+  align-items: center;
 }
 
 
 .breve{
   background-color: #705656;
-  text-align: center;
-  align-items: center;
+  /* text-align: center; */
+  /* align-items: center; */
+  width: 100%;
 }
 
-.habilidades-h2{
-  text-align: center;
+.breve p {
+  margin: 0
+}
+/*page04 */ 
+
+#page4{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.icons{
+ float: right;
+ margin: 10px;
+}
+
+.container-skills{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+}
+
+.skill-box{
+    height: 106px;
+    width: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+    
+}
+
+.span-rodape{
+  float: left;
+  color: white;
 }
 
 
+.button-rodape{
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 40px;
 
-
+}
