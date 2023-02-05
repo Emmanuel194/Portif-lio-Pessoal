@@ -1,4 +1,3 @@
-# Portif-lio-Pessoal
 <h1> Portfólio </a></h1>
 
 <div style="display: inline_block">
@@ -11,7 +10,7 @@
 </div>
 
 
-<img src ="https://drive.google.com/file/d/1HtT4nE5DQlPsh2uYE8KDAKnT0RrUfUb8/view?usp=share_link" />
+![preview](./.github/imagem.png)
 
 <div style="display: inline_block">
 
