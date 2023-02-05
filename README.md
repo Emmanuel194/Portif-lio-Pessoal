@@ -10,7 +10,7 @@
 </div>
 
 
-![preview](./.github/imagem.png)
+![preview](./.github/imagem.png.png)
 
 <div style="display: inline_block">
 
