@@ -39,13 +39,15 @@ h1{
   font-weight: 200;
 }
 
-section{
+section:not(#page4){
  display: flex;
  flex-direction: row;
  margin-top: 50px;
  height: 100vh;
  align-items: center;
 }
+
+
 
 h2{
   font-size: 56px;
@@ -229,26 +231,45 @@ p{
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    height: calc(100vh-132px);
 }
 
+.h2-habilidades{
+ text-align: center;
+
+}
 .icon{
  float: right;
  margin: 10px;
- transition: all 0.3s;
+ transition: all 0.6s;
  box-sizing: border-box;
- 
 }
+
+.icon img{
+  height: 50px;
+}
+
+
 .icon:hover {
   transform: scale(1.3) rotate(360deg);
 }
-
+.container-mother{
+  display: flex;
+}
 .container-skills{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 55%;
-    float: right;
+    width: 55%;
+    float: left;
+    margin-top: 90px;
+}
+.escrita{
+  width: 45%;
 }
 
 .skill-box{
@@ -263,6 +284,7 @@ p{
     background-repeat: no-repeat;
     background-position: center;
     transition: ease 0.3s;
+    
     
 }
 
@@ -283,6 +305,11 @@ p{
   color: white;
 }
 
+.fixarRodape{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
 
 .button-rodape{
   width: 250px;
@@ -292,4 +319,5 @@ p{
   background-color: #6C63FF;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
 }
