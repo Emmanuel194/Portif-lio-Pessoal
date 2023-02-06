@@ -1,29 +1,4 @@
 
-@media (max-width:1200px) {
-  .page3{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
-
-  #page3 {
-      display: flex;
-      justify-content: center;
-  }
-
-  .projeto {
-      flex-direction: column;
-  }
-
-}
-
-@media (max-width:950px) {
-    .pro {
-        max-width: 300px;
-    }
-
-}
-
 @media screen and (max-width: 760px) {
   
   header{
